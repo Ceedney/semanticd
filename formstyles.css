@@ -1,0 +1,60 @@
+body{
+    width: 80%;
+}
+
+main{
+    width: 70%;
+    color: rgb(5, 6, 112);
+    background-color: rgb(157, 230, 230);
+    margin: auto;
+    padding: 30px;
+}
+form{
+    width: 100%;
+    margin: auto;
+    height: 100%;
+    
+}
+
+form > label{
+    display: block;
+    margin-top: 10px;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+form > fieldset> label{
+    display: block;
+    margin-top: 10px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+form> button{
+    display: block;
+    margin-top: 30px;
+    font-size: 20px;
+    width: 30%;
+    margin-left: 10px;
+    height: 40px;
+    background-color: rgb(236, 226, 226);
+    
+}
+form> fieldset>input{
+    width: 50%;
+    height: 25px;
+    font-size: 35px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+form>select{
+    width: 30%;
+    height: 25px;
+    font-size: 15px;
+    margin-left: 50pxs;
+}
+form>password{
+    width: 30%;
+    height: 25px;
+    margin-left: 20px;
+}
